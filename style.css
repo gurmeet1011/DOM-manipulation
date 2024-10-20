@@ -1,0 +1,27 @@
+body{
+    color:white;
+    background-color:black;
+}
+.error-message{
+    display: none;
+    color:red;
+}
+.btn{
+      padding:2px;
+      margin: 10px;
+      margin-left:3px;
+      /* box-shadow: 1px 1px 5px white; */
+}
+.btn-black{
+    display:none;
+    background-color:black;
+    color:white;
+    border:1px solid white;
+    padding:2px;
+    margin: 10px;
+    margin-left:3px;
+    box-shadow: 1px 1px 5px white;
+}
+#text{
+    padding :5px;
+}

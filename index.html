@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dom manipulation</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header><h1>Counter using HTML</h1></header>
+    <div class="display">
+        <span id="text"><u>Your current count is:</u></span>
+        <span id="countDisplay">1</span> <!-- Fixed the typo here (span instead of sapn) -->
+    </div>
+    <div class="error-message" style="display: none;"> <!-- Initially hide the error message -->
+        Error: Cannot go below 0
+    </div>
+    <div class="button">
+        <button class="btn" id="dec">Decrement</button>
+        <button class="btn" id="inc">Increment</button>
+        <button class="btn-black" id="clr" style="display:inline-block;" >Clear</button>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
